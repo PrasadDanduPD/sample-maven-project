@@ -11,9 +11,14 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(MESSAGE);
+        System.out.println(MESSAGE); // Duplicate line
     }
 
     public String getMessage() {
         return MESSAGE;
     }
+    public String getMessage() {
+        return MESSAGE; // Duplicate method
+    }
+    
 }
